@@ -78,7 +78,95 @@ body {
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+
+.user-card .user-name {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.user-card .user-role {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
 /* Formulário */
 #subscribe-container {
     flex: 1;
+    background-image: url("../img/pattern.png");
+    background-size: cover;
+    color: #fff
+}
+
+#form-inner {
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inner h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#form-inner p {
+    margin-bottom: 1rem;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+#name-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#register-form input {
+    padding: 0.8rem 0.6rem; /* Aumenta o tamanho dos inputs */
+    border: none;
+    border-radius: 5px;
+}
+
+#email {
+    min-width: 100%; /*Sempre vai ocupar uma linha */
+}
+
+#register-form input[type="submit"] {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#register-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #0075ff;
+    transition: 0.5s;
+}
+
+#benefits {
+    text-align: left;
+    align-self: start; /* Muda o alinhamento de um elemento específico */
+}
+
+#benefits h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#benefits ul {
+    list-style-position: inside;
+}
+
+#benefits li {
+    margin-bottom: 0.5rem;
 }
